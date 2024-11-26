@@ -1,0 +1,14 @@
+{
+  "name": "04-coverage-e2e",
+  "version": "1.0.0",
+  "author": "<kastor.code/> Matheus Ramalho de Oliveira",
+  "scripts": {
+    "test": "npx mocha --parallel src/*.test.js",
+    "test:cov": "npx nyc mocha --parallel src/*.test.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2",
+    "nyc": "^15.1.0",
+    "supertest": "^6.3.4"
+  }
+}

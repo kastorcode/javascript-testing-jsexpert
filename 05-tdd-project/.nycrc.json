@@ -1,0 +1,11 @@
+{
+  "branches": 100,
+  "lines": 100,
+  "functions": 100,
+  "statements": 100,
+  "all": true,
+  "checkCoverage": true,
+  "include": ["src/**/*.js"],
+  "exclude": ["src/repository/*.js"],
+  "reporter": ["html", "text"]
+}
